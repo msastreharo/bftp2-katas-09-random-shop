@@ -80,13 +80,8 @@ public class ShoppingCart {
                 default:
                     return product.getBasePrice();
             }
-
-
         }
         return product.getSellPrice();
-
-
     }
-
 }
 
