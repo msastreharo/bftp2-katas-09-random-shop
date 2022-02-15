@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class Product {
+public class LegacyProduct {
 
     private Integer numberOfLegs;
     private Integer age;
@@ -10,7 +10,7 @@ public class Product {
     private String name;
     private BigDecimal sellPrice;
 
-    public Product(Integer numberOfLegs, Integer age, boolean isStinky, String color, BigDecimal basePrice, String name, BigDecimal sellPrice) {
+    public LegacyProduct(Integer numberOfLegs, Integer age, boolean isStinky, String color, BigDecimal basePrice, String name, BigDecimal sellPrice) {
         this.numberOfLegs = numberOfLegs;
         this.age = age;
         this.isStinky = isStinky;
